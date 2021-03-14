@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+  margin-top: 2px;
+}
+.header_1 {
+  display: flex;
+  align-items: center;
+ 
+}
+
+.header_logo {
+  height: 25px;
+  object-fit: contain;
+  margin-left: 20px;
+}
+
+
+.input_search{
+    display: flex;
+    align-items: center;
+    height: 28px;
+    width: 50%;
+    border: 1px solid rgb(179, 177, 177)
+}
+.input_search >input{
+    flex: 1;
+    border: none;
+}
+.input_search >input:focus{
+  border: none;
+  outline: none;
+}
+
+.header_inputButton{
+    width: 30px;
+    background-color: #fafafa;
+    color: rgb(122, 122, 122);
+    height: 28px;
+    border: none;
+}
+.input_search >button{
+    width: 50px !important;
+    background-color: #fafafa;
+    color: rgb(122, 122, 122);
+    height: 28px;
+    border: none;
+}
+.input_search >button :focus{
+    outline: none;
+}
+
+.input_search >button :hover{
+  color: rgb(143, 143, 143);
+  
+}
+
+.header_icons{
+    display: flex;
+    align-items: center;
+}
+.header_icon{
+    margin-right: 9px;
+    color: rgb(92, 89, 89);
+    padding: 0.7px;
+}
